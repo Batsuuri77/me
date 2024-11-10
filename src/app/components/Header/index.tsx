@@ -10,7 +10,7 @@ const Header = () => {
         <div className="font-light text-center text-xl text-gray-800 ml-4">
           <Link href={"/"}>BATSUURI</Link>
         </div>
-        <nav className="hidden sm:flex flex-row justify-between gap-2 md:gap-8 mr-20 text-lg font-light items-center">
+        <nav className="hidden sm:flex flex-row justify-between md:gap-14 mr-20 text-lg font-medium items-center">
           <Link href={"/"}>Blog</Link>
           <Link href={"/"}>Projects</Link>
           <Link href={"/"}>About</Link>
