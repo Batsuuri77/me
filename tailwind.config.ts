@@ -8,7 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        footer_bg: "#0077b6",
+        switchNight: "#283B67",
+      },
       fontFamily: {
         mr: ["var(--font-mr)"],
         in: ["var(--font-in)"],
