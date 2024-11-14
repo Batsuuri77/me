@@ -23,7 +23,7 @@ const Header = () => {
           {/* <div className="w-28 border-gray-500 border rounded-full p-1 shadow-inner flex flex-row justify-between items-center bg-switchNight">
             <span className="flex justify-end items-center ml-2 text-white">
               NIGHT
-            </span>
+            </span> 
             <div className="border rounded-full flex justify-center items-center w-8 p-1 shadow-md bg-white">
               <MoonIcon className="w-6 h-6"></MoonIcon>
               <SparklesIcon className="w-3 h-3 absolute top-[30px] right-[300px]"></SparklesIcon>

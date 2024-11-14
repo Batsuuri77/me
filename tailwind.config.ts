@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         footer_bg: "#0077b6",
         switchNight: "#283B67",
+        borderBlack: "#0F172A",
       },
       fontFamily: {
         mr: ["var(--font-mr)"],
