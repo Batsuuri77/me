@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="flex flex-col justify-between py-6 border-t-4 border-borderBlack w-full h-56">
-        <div className="flex flex-col justify-center items-center gap-4 py-6">
+        <div className="flex flex-col justify-center items-center gap-4 pb-6">
           <h1 className="font-normal text-5xl ">Let&apos;s connect!</h1>
           <a
             href="/"

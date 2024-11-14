@@ -13,7 +13,7 @@ const Header = () => {
         <nav className="hidden sm:flex flex-row justify-between md:gap-14 mr-20 text-lg font-medium items-center">
           <Link href={"/"}>Blog</Link>
           <Link href={"/"}>Projects</Link>
-          <Link href={"/"}>About</Link>
+          <Link href={"/pages/about"}>About</Link>
           <div className="w-28 border-gray-300 border rounded-full p-1 shadow-inner flex flex-row justify-between items-center bg-gray-50">
             <div className="border rounded-full flex justify-center items-center w-8 p-1 shadow-md bg-white">
               <SunIcon className="w-6 h-6"></SunIcon>

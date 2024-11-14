@@ -2,25 +2,13 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center">
-      {/* <span className="border w-full border-black"></span>
+    <main className="flex min-h-screen flex-col items-center justify-center p-52">
+      <span className="w-full"></span>
       <div className="flex flex-row justify-between items-center gap-10">
         <p className="text-balance p-4 ml-10">
-          In my work experience, I have consistently encountered problems that
-          can be solved through technology solutions. Realizing that technology
-          is the best way to increase productivity and reduce unnecessary
-          expenses in the workplace, I decided to expand my skill set with a new
-          major. I began by learning basic coding, such as HTML tags and their
-          usage, as well as CSS for basic styling. However, I found JavaScript
-          challenging to fully grasp on my own. This led me to pursue formal
-          education at a university in Australia. In addition to my technical
-          skills, I pride myself on being an excellent observer. This quality
-          allows me to keenly analyze situations and identify opportunities for
-          improvement. I am also adept at finding creative solutions to
-          problems, which has proven valuable for company development
-          initiatives. Overall, my disciplined approach, collaborative nature,
-          and commitment to continuous improvement make me a valuable asset to
-          any team or company..
+          Hello there!
+          <br />
+          From business development manager to front-end developer.
         </p>
         <Image
           src="/001.JPG"
@@ -29,7 +17,7 @@ export default function Home() {
           height={700}
           className="mr-20"
         />
-      </div> */}
+      </div>
     </main>
   );
 }
