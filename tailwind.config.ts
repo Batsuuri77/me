@@ -16,9 +16,23 @@ const config: Config = {
       fontFamily: {
         mr: ["var(--font-mr)"],
         in: ["var(--font-in)"],
+        sm: [
+          "ui-monospace",
+          "SFMono-Regular",
+          "Menlo",
+          "Monaco",
+          "Consolas",
+          "Liberation Mono",
+          "Courier New",
+          "monospace",
+        ],
+      },
+      fontSize: {
+        base: "1.125rem",
       },
     },
   },
+  variants: {},
   plugins: [],
 };
 export default config;

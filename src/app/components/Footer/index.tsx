@@ -4,11 +4,11 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer>
-      <div className="flex flex-col justify-between py-6 border-t-4 border-borderBlack w-full h-56">
+      <div className="flex flex-col justify-between py-10 border-t-[3px] border-borderBlack border-dashed w-full h-56">
         <div className="flex flex-col justify-center items-center gap-4 pb-6">
-          <h1 className="font-normal text-5xl ">Let&apos;s connect!</h1>
+          <h1 className="font-semibold text-5xl">FIND ME ON 👇</h1>
           <a
-            href="/"
+            href="mailto: batsuuri2146@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-row justify-between gap-4 text-2xl"
@@ -16,7 +16,7 @@ const Footer = () => {
             batsuuri2146@gmail.com
           </a>
         </div>
-        <div className="flex flex-col justify-center items-center gap-4 py-6 border-t-4 border-borderBlack border-dashed">
+        <div className="flex flex-col justify-center items-center gap-4 py-6 ">
           <div className="flex flex-row justify-between gap-x-8 text-2xl">
             <a
               href="https://www.facebook.com/kalu.ulak.77"

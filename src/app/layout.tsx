@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Inter, Manrope } from "next/font/google";
+import { Inter, Manrope, Space_Mono } from "next/font/google";
 import "./globals.css";
 import { cx } from "@/src/utils";
-import Header from "@/src/app/components/Header";
-import Footer from "./components/Footer";
+import ClientLayout from "./components/ClientLayout"; // import ClientLayout
 
 const inter = Inter({
   subsets: ["latin"],
@@ -13,6 +12,13 @@ const inter = Inter({
 const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-mr",
+  display: "swap",
+});
+
+const space_mono = Space_Mono({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-sm",
   display: "swap",
 });
 
@@ -32,12 +38,11 @@ export default function RootLayout({
         className={cx(
           inter.variable,
           manrope.variable,
-          "font-mr bg-light dark:bg-dark"
+          space_mono.variable,
+          "font-sm bg-light dark:bg-dark"
         )}
       >
-        <Header />
-        {children}
-        <Footer />
+        <ClientLayout>{children}</ClientLayout> {/* Use ClientLayout here */}
       </body>
     </html>
   );
