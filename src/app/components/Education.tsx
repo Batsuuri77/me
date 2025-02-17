@@ -9,14 +9,7 @@ interface EducationItem {
   gpa: string;
 }
 
-const Education: React.FC<EducationItem> = ({
-  title,
-  school,
-  location,
-  startDate,
-  endDate,
-  gpa,
-}) => {
+const Education: React.FC<EducationItem> = ({}) => {
   return <div>Education</div>;
 };
 

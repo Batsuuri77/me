@@ -50,7 +50,7 @@ const BinaryMeter: React.FC<BinaryMeterProps> = ({
       setTimeout(() => animateDigit(index + 1), 500);
     };
     animateDigit(0);
-  }, [binaryNumber]);
+  }, [binaryArray, binaryNumber]);
 
   return (
     <div className={containerClassName}>
