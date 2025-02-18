@@ -15,8 +15,8 @@ const BinaryMeter: React.FC<BinaryMeterProps> = ({
   digitClassName = "w-8 h-8 bg-gray-800 text-white flex items-center justify-center rounded overflow-hidden",
 }) => {
   const binaryArray = binaryNumber.split("").map(Number);
-  const [digits, setDigits] = useState(() =>
-    binaryNumber.split("").map(() => 0)
+  const [digits, setDigits] = useState<number[]>(() =>
+    new Array(binaryArray.length).fill(0)
   );
   const [completed, setCompleted] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
@@ -32,10 +32,7 @@ const BinaryMeter: React.FC<BinaryMeterProps> = ({
     setDigits(Array(binaryArray.length).fill(0));
 
     const animateDigit = async (index: number) => {
-      if (index >= binaryArray.length) {
-        setCompleted(true);
-        return;
-      }
+      if (index >= binaryArray.length) return;
 
       let currentDigit = 0;
       const totalRotations = 2;
@@ -59,7 +56,7 @@ const BinaryMeter: React.FC<BinaryMeterProps> = ({
       setTimeout(() => animateDigit(index + 1), 500);
     };
     animateDigit(0);
-  }, [binaryArray, binaryNumber, isMounted]);
+  }, [binaryNumber, isMounted]);
 
   return (
     <div className={containerClassName}>
