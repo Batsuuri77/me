@@ -64,6 +64,7 @@ const About = () => {
             <div className="flex-shrink-0 w-52 h-64 sm:w-52 sm:h-64 md:w-60 md:h-72 lg:w-[483px] lg:h-[513px] overflow-hidden drop-shadow-2xl rounded-2xl">
               <Image
                 src="/me/Images/pro.PNG"
+
                 alt="Batsuuri's profile 1.06"
                 layout="responsive"
                 objectFit="cover"
