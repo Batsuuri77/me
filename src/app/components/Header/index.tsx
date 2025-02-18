@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import { Bars3Icon, MoonIcon, SparklesIcon } from "@heroicons/react/24/solid";
 import Navbar from "../Navbar";
 // import { SunIcon } from "@heroicons/react/24/outline";
 // import BinaryMeter from "../BinaryMeter";
@@ -58,10 +57,10 @@ const Header = () => {
             </div>
           </div>*/}
           </div>
-          <div className="flex grow items-center justify-end sm:hidden">
+          {/* <div className="flex grow items-center justify-end sm:hidden">
             <span className="sr-only">Open menu</span>
             <Bars3Icon className="w-6 h-6" aria-hidden="true" />
-          </div>
+          </div> */}
         </div>
       </header>
     </>

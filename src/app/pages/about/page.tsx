@@ -63,7 +63,8 @@ const About = () => {
           <div className="flex flex-col justify-center items-center gap-8">
             <div className="flex-shrink-0 w-52 h-64 sm:w-52 sm:h-64 md:w-60 md:h-72 lg:w-[483px] lg:h-[513px] overflow-hidden drop-shadow-2xl rounded-2xl">
               <Image
-                src="/Images/pro.png"
+                src="/me/Images/pro.PNG"
+
                 alt="Batsuuri's profile 1.06"
                 layout="responsive"
                 objectFit="cover"
@@ -91,7 +92,7 @@ const About = () => {
                     rel="noopener noreferrer"
                   >
                     <Image
-                      src={"/Images/social/Facebook.png"}
+                      src={"/me/Images/social/Facebook.png"}
                       alt={"facebook"}
                       width={60}
                       height={60}
@@ -103,7 +104,7 @@ const About = () => {
                     rel="noopener noreferrer"
                   >
                     <Image
-                      src={"/Images/social/Instagram.png"}
+                      src={"/me/Images/social/Instagram.png"}
                       alt={"instagram"}
                       width={60}
                       height={60}
@@ -115,7 +116,7 @@ const About = () => {
                     rel="noopener noreferrer"
                   >
                     <Image
-                      src={"/Images/social/GitHub.png"}
+                      src={"/me/Images/social/GitHub.png"}
                       alt={"github"}
                       width={60}
                       height={60}
@@ -127,7 +128,7 @@ const About = () => {
                     rel="noopener noreferrer"
                   >
                     <Image
-                      src={"/Images/social/Linkedin.png"}
+                      src={"/me/Images/social/Linkedin.png"}
                       alt={"linkedin"}
                       width={60}
                       height={60}

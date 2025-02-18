@@ -24,7 +24,7 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <Image
-                src={"/Images/social/Facebook.png"}
+                src={"/me/Images/social/Facebook.png"}
                 alt={"facebook"}
                 width={50}
                 height={50}
@@ -36,7 +36,7 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <Image
-                src={"/Images/social/Instagram.png"}
+                src={"/me/Images/social/Instagram.png"}
                 alt={"instagram"}
                 width={50}
                 height={50}
@@ -48,7 +48,7 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <Image
-                src={"/Images/social/GitHub.png"}
+                src={"/me/Images/social/GitHub.png"}
                 alt={"github"}
                 width={50}
                 height={50}
@@ -60,7 +60,7 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <Image
-                src={"/Images/social/Linkedin.png"}
+                src={"/me/Images/social/Linkedin.png"}
                 alt={"linkedin"}
                 width={50}
                 height={50}
