@@ -1,10 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export", // Enables static site generation (SSG)
-  //assetPrefix: "./me", // Ensures assets work in GitHub Pages' environment
+  output: "export",
+  basePath: "/me", // Base path for the project
+  trailingSlash: true, // Enable trailing slash
   images: {
-    unoptimized: true, // Disables image optimization (since it's not supported in GitHub Pages)
+    unoptimized: true,
   },
 };
 
