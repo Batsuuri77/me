@@ -1,3 +1,11 @@
+1 reference
+The nextjs.yml GitHub Actions workflow file appears to be well-structured for deploying a Next.js site. However, there might be an issue with where the Next.js build output is being directed. By default, Next.js builds to the .next directory, but this workflow is uploading artifacts from the ./out directory.
+
+Let's make sure the deployment job is pointing to the correct output directory. Try changing the path in the Upload artifact step from ./out to .next.
+
+Here is the updated nextjs.yml file with this change:
+
+YAML
 # Sample workflow for building and deploying a Next.js site to GitHub Pages
 #
 # To get started with Next.js see: https://nextjs.org/docs/getting-started
@@ -78,7 +86,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: .next
 
   # Deployment job
   deploy:
