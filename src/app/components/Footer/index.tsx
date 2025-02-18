@@ -24,7 +24,7 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <Image
-                src={"/Images/social/Facebook.png"}
+                src={"/me/Images/social/Facebook.png"}
                 alt={"facebook"}
                 width={50}
                 height={50}
