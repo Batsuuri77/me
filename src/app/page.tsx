@@ -53,7 +53,7 @@ export default function Home() {
             {/* Image section */}
             <div className="flex-shrink-0 w-52 h-64 sm:w-52 sm:h-64 md:w-60 md:h-72 lg:w-[500px] lg:h-[530px] overflow-hidden drop-shadow-2xl rounded-2xl">
               <Image
-                src="/me/pro.png"
+                src="/me/Images/pro.png"
                 alt="Batsuuri's profile 1.06"
                 layout="responsive"
                 objectFit="cover"
