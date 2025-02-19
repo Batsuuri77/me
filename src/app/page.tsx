@@ -1,6 +1,6 @@
 "use client";
 import WavingHand from "./components/Wave";
-import { IMAGE_PATHS } from "@/src/utils/imagePaths";
+import { IMAGE_PATHS } from '@/app/utils/imagePaths'
 import Technologies from "./components/Technologies";
 import { Typewriter } from "react-simple-typewriter";
 import Image from "next/image";
