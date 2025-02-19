@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import * as React from 'react';
 import { Inter, Manrope, Space_Mono } from "next/font/google";
-import "./globals.css";
-import { cx } from "@/src/utils";
+
+import '@/styles/globals.css';
+import { cx } from '@/app/utils'
 import ClientLayout from "./components/ClientLayout"; // import ClientLayout
 
 const inter = Inter({
